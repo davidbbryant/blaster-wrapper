@@ -6,7 +6,7 @@ public class ExplosionController : MonoBehaviour
 {
     void Start()
     {
-        //Start couroutine that will destroy tthe object once the explosion animation is finished
+        //Start couroutine that will destroy the object once the explosion animation is finished
         StartCoroutine(Lifetime());
     }
 
